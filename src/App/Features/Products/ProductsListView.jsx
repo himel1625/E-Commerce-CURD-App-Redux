@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import LoadingSpinner from '../../../Components/Spinner/LoadingSpinner';
 import { fetchProductsAsync } from './ProductsSlice';
 
 const ProductsListView = () => {
@@ -14,7 +15,11 @@ const ProductsListView = () => {
     }, [dispatch]);
 
     if (IsLoading) {
-        return <div className='text-center'>Loading...</div>;
+        return (
+            <div className='text-center'>
+                <LoadingSpinner />
+            </div>
+        );
     }
 
     if (error) {
