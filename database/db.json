@@ -1,17 +1,17 @@
 {
     "products": [
         {
-            "id": 1,
-            "name": "Wireless Mouse",
-            "description": "A sleek and responsive wireless mouse with ergonomic design for comfort during long hours of use.",
-            "price": 25.99,
+            "id": "1",
+            "name": "Wireless Earbuds",
+            "description": "High-quality earbuds with noise cancellation and long battery life.",
+            "price": 49.99,
             "category": "Electronics",
-            "image": "https://example.com/images/mouse.jpg",
-            "stock": 120,
+            "image": "https://example.com/images/earbuds.jpg",
+            "stock": 150,
             "rating": 4.5
         },
         {
-            "id": 2,
+            "id": "2",
             "name": "Gaming Keyboard",
             "description": "A mechanical keyboard with customizable RGB lighting, ideal for gamers seeking precision and style.",
             "price": 89.99,
@@ -21,24 +21,104 @@
             "rating": 4.8
         },
         {
-            "id": 3,
-            "name": "Bluetooth Speaker",
-            "description": "Portable Bluetooth speaker with high-quality sound, perfect for outdoor activities or home use.",
-            "price": 49.99,
-            "category": "Audio",
-            "image": "https://example.com/images/speaker.jpg",
-            "stock": 80,
-            "rating": 4.3
+            "id": "3",
+            "name": "4K Monitor",
+            "description": "Ultra HD monitor with vibrant colors and a fast refresh rate.",
+            "price": 299.99,
+            "category": "Electronics",
+            "image": "https://example.com/images/monitor.jpg",
+            "stock": 30,
+            "rating": 4.7
         },
         {
-            "id": 4,
+            "id": "4",
             "name": "Smartphone Stand",
             "description": "A sturdy and adjustable stand for holding your smartphone at the perfect angle for watching videos or video calls.",
             "price": 15.99,
             "category": "Accessories",
             "image": "https://example.com/images/stand.jpg",
             "stock": 200,
-            "rating": 4.0
+            "rating": 4
+        },
+        {
+            "id": "5",
+            "name": "Portable Charger",
+            "description": "Compact power bank with fast charging capabilities.",
+            "price": 29.99,
+            "category": "Accessories",
+            "image": "https://example.com/images/charger.jpg",
+            "stock": 120,
+            "rating": 4.3
+        },
+        {
+            "id": "6",
+            "name": "Bluetooth Speaker",
+            "description": "Waterproof speaker with deep bass and Bluetooth 5.0 support.",
+            "price": 39.99,
+            "category": "Electronics",
+            "image": "https://example.com/images/speaker.jpg",
+            "stock": 70,
+            "rating": 4.6
+        },
+        {
+            "id": "7",
+            "name": "Fitness Tracker",
+            "description": "Track your steps, heart rate, and sleep patterns with ease.",
+            "price": 59.99,
+            "category": "Wearables",
+            "image": "https://example.com/images/fitness-tracker.jpg",
+            "stock": 90,
+            "rating": 4.4
+        },
+        {
+            "id": "8",
+            "name": "Laptop Cooling Pad",
+            "description": "Prevents overheating with adjustable fan speeds and RGB lighting.",
+            "price": 24.99,
+            "category": "Accessories",
+            "image": "https://example.com/images/cooling-pad.jpg",
+            "stock": 60,
+            "rating": 4.2
+        },
+        {
+            "id": "9",
+            "name": "Mechanical Mouse",
+            "description": "Ergonomic mouse with programmable buttons for gaming.",
+            "price": 35.99,
+            "category": "Electronics",
+            "image": "https://example.com/images/mouse.jpg",
+            "stock": 80,
+            "rating": 4.5
+        },
+        {
+            "id": "10",
+            "name": "USB-C Hub",
+            "description": "Expand your device’s connectivity with multiple ports.",
+            "price": 19.99,
+            "category": "Accessories",
+            "image": "https://example.com/images/usb-hub.jpg",
+            "stock": 100,
+            "rating": 4.3
+        },
+        {
+            "id": "11",
+            "name": "Wireless Charging Pad",
+            "description": "Fast wireless charging for all Qi-enabled devices.",
+            "price": 22.99,
+            "category": "Accessories",
+            "image": "https://example.com/images/charging-pad.jpg",
+            "stock": 110,
+            "rating": 4.4
+        },
+        {
+            "id": "12",
+            "name": "Smartwatch",
+            "description": "Full-featured smartwatch with GPS and health tracking.",
+            "price": 129.99,
+            "category": "Wearables",
+            "image": "https://example.com/images/smartwatch.jpg",
+            "stock": 40,
+            "rating": 4.7
         }
     ]
 }

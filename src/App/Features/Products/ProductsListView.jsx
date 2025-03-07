@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import LoadingSpinner from '../../../Components/Spinner/LoadingSpinner';
-import { fetchProductsAsync } from './ProductsSlice';
+import { deleteProductsAsync, fetchProductsAsync } from './ProductsSlice';
 
 const ProductsListView = () => {
     const { Products, IsLoading, error } = useSelector(
@@ -60,6 +60,16 @@ const ProductsListView = () => {
                                         <strong>In Stock:</strong>{' '}
                                         {product.stock}
                                     </p>
+                                    <button
+                                        onClick={() =>
+                                            dispatch(
+                                                deleteProductsAsync(product.id),
+                                            )
+                                        }
+                                        className='h-8 w-full mt-5 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors duration-300 shadow-md'
+                                    >
+                                        Delete
+                                    </button>
                                 </div>
                             </div>
                         </div>
