@@ -1,14 +1,14 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Smartphone Stand",
+      "name": "Smartphone Stand sdadasfsdsd",
       "description": "A sturdy and adjustable stand for holding your smartphone at the perfect angle for watching videos or video calls.",
       "price": 15.99,
       "category": "Accessories",
       "image": "https://i.ibb.co/svv38KCp/Gaming-Keyboard.jpg",
       "stock": "200222",
-      "rating": 4
+      "rating": "41231",
+      "id": "1"
     },
     {
       "id": "2",
@@ -81,7 +81,7 @@
       "rating": 4
     },
     {
-      "name": "LED Ring Light with charger",
+      "name": "LED Ring Light with charger wedsdfasdf",
       "description": "Dimmable LED ring light for video conferencing and content creation.",
       "price": "19.99123123123123",
       "category": "Accessories",
@@ -89,6 +89,36 @@
       "stock": "15000",
       "rating": 4,
       "id": "11"
+    },
+    {
+      "name": "Thane Dixon",
+      "description": "Harum omnis pariatur",
+      "price": "636",
+      "category": "Reprehenderit nihil ",
+      "image": "https://i.ibb.co/svv38KCp/Gaming-Keyboard.jpg",
+      "stock": "23",
+      "rating": "96",
+      "id": "NacVUMQANkgms-dWkV4Bh"
+    },
+    {
+      "name": "Thane Dixon dssdfsdafsadf",
+      "description": "Harum omnis pariaturjksgadifouasdfkjsdfho[fsdjiuahsdfgnakjsdbvio alsdhfjhgaoisndjfo asdbfhjhasdlk8qwerfauishdfashjdbc oasdvasdfsad sdgfasdfasdf",
+      "price": "636",
+      "category": "Reprehenderit nihil ",
+      "image": "https://i.ibb.co/svv38KCp/Gaming-Keyboard.jpg",
+      "stock": "23",
+      "rating": "96",
+      "id": "YhjOvGxVoY_R2SAXlzHxL"
+    },
+    {
+      "name": "Thane Dixon dssdfsdafsadf",
+      "description": "Harum omnis pariatursdhkjgfuyasdfosdf sdhjcvbakjsdbcas dc asdvcas;dfcasdfihasdfgs dfaskjdf sdfasdfasdf sd",
+      "price": "636",
+      "category": "Reprehenderit nihil ",
+      "image": "https://i.ibb.co/svv38KCp/Gaming-Keyboard.jpg",
+      "stock": "23123123",
+      "rating": "96",
+      "id": "hDXSRh7y1vfYaazsBS3Cw"
     }
   ]
 }
