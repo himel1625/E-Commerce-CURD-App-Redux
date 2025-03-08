@@ -3,6 +3,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import usePublicApiClient from '../../../Hook/usePublicApiClient';
 
 const publicApiClient = usePublicApiClient();
+
 const initialState = {
    Products: [],
    IsLoading: false,
