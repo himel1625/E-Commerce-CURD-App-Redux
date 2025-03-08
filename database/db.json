@@ -83,22 +83,12 @@
     {
       "name": "LED Ring Light with charger",
       "description": "Dimmable LED ring light for video conferencing and content creation.",
-      "price": 19.99,
+      "price": "19.99123123123123",
       "category": "Accessories",
       "image": "https://i.ibb.co/svv38KCp/Gaming-Keyboard.jpg",
       "stock": "15000",
       "rating": 4,
       "id": "11"
-    },
-    {
-      "id": "q1_uX_zWa17UgzvSBv_9T",
-      "name": "Darrel Clark",
-      "description": "Irure laudantium pl",
-      "price": "820",
-      "category": "Dolorem in vel neces",
-      "image": "https://i.ibb.co/svv38KCp/Gaming-Keyboard.jpg",
-      "stock": "34",
-      "rating": "80"
     }
   ]
 }
