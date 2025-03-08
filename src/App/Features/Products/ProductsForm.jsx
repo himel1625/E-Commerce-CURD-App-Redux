@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { createProducts, updateProducts } from './ProductsSlice';
-const ProductsForm = ({ editProduct = {}, isEdit = false }) => {
+const ProductsForm = ({ editProduct = {}, isEdit = false, resetForm }) => {
    const dispatch = useDispatch();
    const [formData, setFormData] = useState({
       id: '',
@@ -38,6 +38,7 @@ const ProductsForm = ({ editProduct = {}, isEdit = false }) => {
       e.preventDefault();
       if (editProduct) {
          dispatch(updateProducts({ id: editProduct.id, product: formData }));
+         resetForm();
       } else {
          dispatch(createProducts({ ...formData, id: nanoid() }));
       }

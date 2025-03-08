@@ -21,14 +21,14 @@
       "rating": 5
     },
     {
-      "id": "4",
-      "name": "USB-C Hub",
+      "name": "USB-C Hub best",
       "description": "Multi-port USB-C hub with HDMI, USB-A, and SD card slots.",
       "price": 29.99,
       "category": "Accessories",
       "image": "https://i.ibb.co/svv38KCp/Gaming-Keyboard.jpg",
       "stock": "80000",
-      "rating": 4
+      "rating": 4,
+      "id": "4"
     },
     {
       "id": "5",
@@ -91,16 +91,6 @@
       "id": "11"
     },
     {
-      "name": "Thane Dixon",
-      "description": "Harum omnis pariatur",
-      "price": "636",
-      "category": "Reprehenderit nihil ",
-      "image": "https://i.ibb.co/svv38KCp/Gaming-Keyboard.jpg",
-      "stock": "23",
-      "rating": "96",
-      "id": "NacVUMQANkgms-dWkV4Bh"
-    },
-    {
       "name": "Thane Dixon dssdfsdafsadf",
       "description": "Harum omnis pariaturjksgadifouasdfkjsdfho[fsdjiuahsdfgnakjsdbvio alsdhfjhgaoisndjfo asdbfhjhasdlk8qwerfauishdfashjdbc oasdvasdfsad sdgfasdfasdf",
       "price": "636",
@@ -111,7 +101,7 @@
       "id": "YhjOvGxVoY_R2SAXlzHxL"
     },
     {
-      "name": "Thane Dixon dssdfsdafsadf",
+      "name": "Thane Dixon Him",
       "description": "Harum omnis pariatursdhkjgfuyasdfosdf sdhjcvbakjsdbcas dc asdvcas;dfcasdfihasdfgs dfaskjdf sdfasdfasdf sd",
       "price": "636",
       "category": "Reprehenderit nihil ",

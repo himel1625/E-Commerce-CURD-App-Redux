@@ -10,10 +10,14 @@ const App = () => {
       setEditProduct(product);
       setIsEdit(true);
    };
+   const resetForm = () => {
+      setEditProduct({});
+      setIsEdit(false);
+   };
 
    return (
       <div>
-         <ProductsForm editProduct={editProduct} isEdit={isEdit} />
+         <ProductsForm editProduct={editProduct} isEdit={isEdit} resetForm={resetForm} />
          <ProductsListView onEdit={handleEditProduct} />
       </div>
    );
